@@ -1,3 +1,31 @@
+<img width="1440" alt="Screenshot 2024-03-12 at 1 11 38 PM" src="https://github.com/Samarthya21/Task_Manager/assets/112236357/6cd3a2d3-26cf-4a4a-b627-4f9e054ed332"># Task Manager Website
+
+This project is a task manager website developed using Next.js, express, CSS Tailwind Prisma, and MongoDB. It allows users to manage their tasks by adding, editing, deleting, and marking tasks as completed. The tasks are organized into three sections: incomplete, important, and completed.
+
+## Features
+
+- **User Authentication**: Users can sign up, log in, and log out securely.
+- **Task Management**: Users can add, edit, delete, and mark tasks as completed, incompleted and important.
+- **Task Sections**: Tasks are categorized into three sections: incomplete, important, and completed.
+- **Responsive Design**: The website is designed to be responsive and accessible on various devices.
+
+## Tech Stack
+
+- **Frontend**: Next.js
+- **Backend**: Prisma, MongoDB
+- **Authentication**: Clerk
+- **Styling**: CSS, Tailwind CSS
+
+  ## Screenshots
+ 
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
