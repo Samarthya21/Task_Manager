@@ -22,4 +22,9 @@ if (process.env.NODE_ENV === 'production') {
     prisma = global.prisma;
 }
 
-export default prisma!;
+// Export prisma only if it's defined
+if (prisma) {
+    export default prisma;
+} else {
+    throw new Error('Prisma instance is not defined.');
+}
